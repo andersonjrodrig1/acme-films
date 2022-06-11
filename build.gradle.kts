@@ -9,7 +9,7 @@ plugins {
 version = "0.1"
 group = "com.acme.films"
 
-val kotlinVersion=project.properties.get("kotlinVersion")
+val kotlinVersion= project.properties["kotlinVersion"]
 repositories {
     mavenCentral()
 }
